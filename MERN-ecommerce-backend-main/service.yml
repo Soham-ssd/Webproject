@@ -1,0 +1,21 @@
+---
+services:
+
+##NEWLINE##
+  web:
+    git_url: http://github.com/Soham-ssd/Webproject
+    git_branch: main
+    command: npm start
+    
+    
+    build_root: MERN-ecommerce-backend-main/
+
+    ports:
+      - container: 3000
+        http: 80
+        https: 443
+        
+        
+    
+
+    
